@@ -1,4 +1,4 @@
-package inventorybab5;
+package inventorybab4;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -79,9 +79,8 @@ public String toString(){
     return "Item Number : " + number +
             "\nName : " + name +
             "\nQuantity in stock : " + qty +
-            "\nPrice : " + price + 
-            "\nInventory Value : " + getInventoryvalue() +
+            "\nPrice : " + price +
+            "\nInventory value : " + getInventoryvalue() +
             "\nProduct Status : " + Status;
-            
 }
 }

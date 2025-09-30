@@ -18,31 +18,31 @@ public class producttester {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         
-        int number,qty;
+        int number, qty;
         String name;
         double price;
         
-        System.out.println("Eneter product 1 Data");
-        System.out.print("Item number: ");
+        System.out.println("Enter product 1 Data");
+        System.out.print("Item number : ");
         number=in.nextInt();
-        System.out.println("Item name: ");
+        System.out.println("Item name : ");
         in.nextLine();
         name=in.nextLine();
-        System.out.print("Item avaiblity: ");
+        System.out.print("Item avaibility : ");
         qty=in.nextInt();
-        System.out.println("Unit price: ");
+        System.out.println("Unit price : ");
         price=in.nextDouble();
         product p1=new product(number,name,qty,price);
         
-        System.out.println("Eneter product 2 Data");
-        System.out.print("Item number: ");
+        System.out.println("Enter product 2 Data");
+        System.out.print("Item number : ");
         number=in.nextInt();
-        System.out.println("Item name: ");
+        System.out.println("Item name : ");
         in.nextLine();
         name=in.nextLine();
-        System.out.print("Item avaiblity: ");
+        System.out.print("Item avaibility : ");
         qty=in.nextInt();
-        System.out.println("Unit price: ");
+        System.out.println("Unit price : ");
         price=in.nextDouble();
         product p2=new product(number,name,qty,price);
         
